@@ -1,0 +1,122 @@
+            *{
+                margin: 0; padding: 0; border: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .container{
+                width: 95%;
+                margin: 0 auto;
+            }
+            body{
+                background: #eee;
+                font-family: 'Courier New', Courier, monospace;
+                margin-top: auto;
+            }
+            nav{
+                position: fixed;
+                display: flex;
+                left: 0;
+                top: 0;
+                width: 100%;
+                background-color: silver;
+                padding: 0 2em;
+                border-bottom: 3px solid black;
+                max-height: 20%;
+            }
+            nav img{
+                width: 100%;
+                float: left;
+                margin: 1% 0;
+                max-width: 200px;
+            }
+            nav .logo{
+                width: 20%;
+            }
+
+            nav ul{
+                margin: 0;
+                padding: 0;
+                margin-top: 3%;
+                width: 80%;
+            }
+            nav ul li{
+                display: inline-block;
+                margin: 2em;
+                text-align: center;
+                line-height: 3em;
+
+                -webkit-transition: all 0.5s ease 0.2s;
+                -moz-transition: all 0.5s ease 0.2s;
+                -o-transition: all 0.5s ease 0.2s;
+                -ms-transition: all 0.5s ease 0.2s;
+                transition: all 0.5s ease 0.2s;
+            }
+            nav ul li:hover{
+                color: #000;
+                background-color: #fff;
+            }
+            ul a{
+                color: white;
+                text-decoration: none;
+                display: block;
+                background-color: #494545;
+                padding: 0.5em;
+            }
+            main img{
+                width: 100%;
+            }
+            div.side{
+                display: flex;
+            }
+            .sidebar{
+                width: 30%;
+            }
+            .rightSideAll{
+                display: flex;
+                width: 70%;
+                flex-wrap: wrap;
+            }
+            .bannerNew{
+                width:100%;
+
+            }
+            .bannerNew img{
+                width: 100%;
+                display:inline;
+            }
+            .sidebar li{
+                list-style-type: none;
+                line-height: 3em;
+
+                -webkit-transition: all 0.5s ease 0.2s;
+                -moz-transition: all 0.5s ease 0.2s;
+                -o-transition: all 0.5s ease 0.2s;
+                -ms-transition: all 0.5s ease 0.2s;
+                transition: all 0.5s ease 0.2s;
+            }
+            .sidebar li a:hover{
+                color: rgb(12, 45, 45);
+                background-color: bisque;
+            }
+            div#pic {
+                float: right;
+            }
+            .sidetext{
+                margin: 20px 5%;
+                float: left;
+                width: 30%;
+            }
+            a.img1, a.img2, a.img3{
+                width: 30%;
+            }
+            .examples img{
+                width: 100%;
+            }
+            .examples{
+                display: flex;
+                justify-content: space-between;
+            }
+            footer{
+                margin: 20px auto;
+                text-align: center;
+            }
+
